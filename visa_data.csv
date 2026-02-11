@@ -1,0 +1,501 @@
+Application_ID,Applicant_Country,Visa_Type,Processing_Office,Application_Date,Decision_Date,Applicant_Age,Experience_Years
+1001,USA,Work,London,2022-03-19,2022-06-26,62,22.0
+1002,Canada,Tourist,,2022-06-06,2022-08-28,111,
+1003,France,Tourist,Toronto,2022-03-09,2022-05-11,101,25.0
+1004,Canada,Student,New Delhi,2022-02-27,2022-06-18,108,0.0
+1005,Germany,Work,Hyderabad,2022-09-03,2022-09-26,60,24.0
+1006,Germany,Student,,2022-11-28,2022-12-08,75,19.0
+1007,USA,Tourist,London,2022-03-25,2022-06-30,63,4.0
+1008,Germany,Student,Hyderabad,2022-04-04,2022-04-04,71,12.0
+1009,Australia,Tourist,,2022-08-23,2022-09-13,26,
+1010,,Work,,2022-09-08,2022-10-03,48,24.0
+1011,UK,Student,,2022-12-23,2023-02-23,35,
+1012,UK,Work,Toronto,2022-08-16,2022-08-25,111,17.0
+1013,Canada,Work,Hyderabad,2022-02-20,2022-06-18,89,
+1014,USA,Work,,2022-03-31,2022-04-03,35,
+1015,Australia,Work,Hyderabad,2022-02-12,2022-06-09,101,
+1016,,Tourist,New Delhi,2022-01-27,2022-05-23,92,6.0
+1017,UK,Student,,2022-08-07,2022-10-04,14,
+1018,,Tourist,New Delhi,2022-09-09,2022-12-07,-2,
+1019,India,Tourist,Hyderabad,wrong_date,2022-06-28,58,
+1020,Canada,Tourist,Toronto,2022-12-21,2022-12-26,37,
+1021,India,Tourist,New Delhi,2022-04-07,2022-06-12,26,13.0
+1022,Canada,Tourist,Hyderabad,2022-05-13,2022-07-07,103,2.0
+1023,UK,Tourist,Sydney,2022-12-02,,74,
+1024,Germany,Tourist,Hyderabad,2022-09-24,2023-01-21,107,
+1025,UK,Work,Hyderabad,2022-01-24,2022-01-23,42,5.0
+1026,Australia,Work,New Delhi,2022-09-29,2022-12-07,4,
+1027,,Work,Hyderabad,2022-10-15,2023-01-19,52,8.0
+1028,UK,Student,New Delhi,2022-10-16,2023-01-20,17,
+1029,Canada,Student,New Delhi,2022-08-13,2022-11-05,14,
+1030,Canada,Tourist,,2022-04-19,2022-07-01,82,15.0
+1031,Germany,Student,,2022-03-25,2022-06-27,56,16.0
+1032,India,Work,Toronto,2022-03-13,2022-03-16,15,
+1033,USA,Tourist,London,2022-05-03,2022-07-25,91,
+1034,Australia,Tourist,California,2022-09-06,2022-10-01,25,
+1035,,Work,California,2022-08-06,2022-09-22,72,10.0
+1036,UK,Tourist,New Delhi,2022-11-20,2022-12-19,56,19.0
+1037,Australia,Student,Toronto,wrong_date,2023-01-01,25,25.0
+1038,India,Student,London,2022-06-20,2022-10-15,14,8.0
+1039,USA,Tourist,,2022-08-11,2022-08-19,67,
+1040,Canada,Tourist,Toronto,2022-03-14,2022-06-08,44,17.0
+1041,USA,Work,Hyderabad,2022-02-24,2022-03-17,29,3.0
+1042,UK,Student,London,2023-01-01,2023-02-18,-6,
+1043,UK,Student,Toronto,2022-07-31,2022-07-26,100,
+1044,UK,Tourist,London,2022-01-22,2022-01-18,45,
+1045,Germany,Work,Hyderabad,2022-11-11,2023-03-05,29,
+1046,Australia,Work,Hyderabad,2022-10-03,2022-11-17,89,
+1047,,Tourist,London,2022-12-16,2023-03-24,34,
+1048,Australia,Tourist,Toronto,2022-11-25,2022-12-27,114,4.0
+1049,Germany,Tourist,,2022-12-27,2023-02-23,84,
+1050,,Tourist,New Delhi,2022-12-05,2022-12-23,43,23.0
+1051,UK,Work,Hyderabad,2022-05-04,2022-07-29,36,
+1052,Australia,Tourist,,2022-06-28,2022-08-12,-4,20.0
+1053,,Student,Sydney,2023-01-01,2023-01-09,104,11.0
+1054,Australia,Student,Sydney,2022-08-27,2022-09-07,-8,
+1055,Canada,Work,New Delhi,2022-12-24,2023-04-09,65,
+1056,Australia,Work,California,2022-12-11,2023-02-22,47,22.0
+1057,India,Student,,2022-06-15,2022-09-14,115,
+1058,Canada,Tourist,Toronto,2022-03-25,2022-06-22,81,24.0
+1059,,Student,London,2022-10-29,2023-02-02,42,4.0
+1060,USA,Tourist,London,2022-01-11,2022-02-20,34,
+1061,France,Student,Hyderabad,2022-06-29,2022-09-13,63,
+1062,USA,Tourist,California,2022-10-26,2022-11-28,9,
+1063,Canada,Work,California,2022-08-23,2022-11-26,75,12.0
+1064,Germany,Tourist,California,2022-10-06,2022-11-08,79,
+1065,Canada,Work,New Delhi,2022-08-04,2022-09-25,96,8.0
+1066,USA,Tourist,Sydney,wrong_date,2022-08-05,91,15.0
+1067,Germany,Student,Sydney,2022-03-09,2022-04-03,117,
+1068,USA,Student,Hyderabad,2022-09-16,2022-12-27,9,14.0
+1069,France,Tourist,,2022-09-23,2022-09-19,68,5.0
+1070,USA,Work,Toronto,2022-03-16,2022-03-12,30,
+1071,Australia,Tourist,California,2022-10-24,2022-11-06,106,
+1072,,Work,Toronto,2022-02-26,2022-05-16,78,0.0
+1073,Canada,Work,Sydney,2022-04-13,2022-08-07,38,7.0
+1074,Canada,Work,Hyderabad,2022-03-09,2022-03-29,103,
+1075,,Tourist,New Delhi,2022-05-18,2022-05-22,-5,
+1076,UK,Work,New Delhi,2022-12-26,2023-01-24,-3,
+1077,Australia,Work,Toronto,2022-07-14,2022-08-05,116,
+1078,Australia,Work,Toronto,2022-04-01,2022-05-13,117,21.0
+1079,France,Work,Hyderabad,2022-08-22,2022-09-03,-9,
+1080,France,Tourist,California,2022-02-08,2022-06-04,50,25.0
+1081,Canada,Work,New Delhi,2022-08-06,2022-08-16,117,2.0
+1082,Canada,Tourist,Toronto,2022-12-30,2023-04-18,88,11.0
+1083,,Work,New Delhi,2022-08-21,2022-08-17,-2,
+1084,,Student,Toronto,2022-11-29,2023-01-23,14,25.0
+1085,Canada,Work,London,2022-08-11,2022-10-27,65,
+1086,,Tourist,,2022-10-01,2023-01-01,62,
+1087,UK,Work,Toronto,2022-05-24,2022-09-05,18,4.0
+1088,UK,Tourist,Toronto,2022-01-21,2022-03-16,105,
+1089,,Work,New Delhi,2022-02-10,2022-03-10,105,
+1090,India,Student,California,2022-04-19,2022-06-28,106,
+1091,Canada,Work,Toronto,2022-01-15,2022-02-23,16,
+1092,USA,Student,New Delhi,2022-03-04,2022-03-15,-2,
+1093,France,Tourist,New Delhi,2022-07-30,2022-11-10,12,
+1094,Canada,Tourist,,2022-05-06,2022-05-13,105,
+1095,France,Student,Hyderabad,2022-01-02,2022-01-24,80,
+1096,Germany,Tourist,,2022-06-04,2022-08-31,-8,14.0
+1097,,Tourist,Hyderabad,2022-05-17,2022-07-24,113,12.0
+1098,France,Tourist,Sydney,2022-04-02,2022-04-21,20,18.0
+1099,Australia,Tourist,Hyderabad,2022-04-13,2022-04-22,89,
+1100,Germany,Student,,2022-06-18,2022-06-18,9,
+1101,UK,Student,New Delhi,2022-09-01,2022-10-05,-8,
+1102,Australia,Tourist,New Delhi,2022-02-16,2022-02-18,91,
+1103,Australia,Tourist,Hyderabad,2022-12-08,2022-12-09,74,
+1104,USA,Work,New Delhi,2022-07-06,2022-08-11,86,21.0
+1105,UK,Student,,2022-05-29,2022-06-19,12,
+1106,,Tourist,London,2022-04-27,2022-06-12,77,18.0
+1107,Australia,Tourist,Sydney,2022-05-09,2022-06-30,54,12.0
+1108,Canada,Tourist,California,2022-07-01,2022-07-31,20,
+1109,Germany,Work,California,2022-07-08,2022-09-21,92,7.0
+1110,Canada,Work,Sydney,2022-12-25,2022-12-23,111,
+1111,UK,Tourist,Hyderabad,2022-01-04,2022-02-18,2,
+1112,UK,Student,Sydney,2022-05-11,2022-05-10,73,1.0
+1113,Australia,Tourist,California,2022-06-16,2022-07-01,101,
+1114,USA,Tourist,,2022-12-23,2023-03-16,47,
+1115,,Tourist,Sydney,2022-10-06,2022-10-21,77,
+1116,,Tourist,California,2022-08-08,2022-10-11,44,21.0
+1117,USA,Work,New Delhi,2022-07-24,2022-08-24,58,
+1118,Canada,Student,New Delhi,2022-06-01,2022-07-07,64,12.0
+1119,India,Tourist,Toronto,2022-12-19,2023-03-12,74,21.0
+1120,Canada,Work,California,2022-08-08,2022-11-30,42,
+1121,,Tourist,Sydney,2022-05-20,2022-07-08,11,16.0
+1122,France,Work,Sydney,2022-07-09,2022-07-13,28,
+1123,Germany,Student,New Delhi,2022-12-12,2023-04-06,2,
+1124,Australia,Work,California,2022-07-30,2022-08-27,98,
+1125,India,Student,Toronto,2022-10-08,2022-11-20,48,4.0
+1126,Australia,Tourist,California,wrong_date,2022-11-13,72,
+1127,Canada,Tourist,New Delhi,2022-09-29,2022-10-11,89,
+1128,,Student,Hyderabad,2022-06-20,2022-08-18,84,12.0
+1129,Australia,Student,London,2022-09-19,2022-12-26,55,5.0
+1130,France,Student,California,2022-10-05,2023-01-15,-4,
+1131,Germany,Student,Toronto,2022-02-13,2022-02-16,2,1.0
+1132,UK,Student,California,2022-03-23,2022-06-30,115,20.0
+1133,Canada,Tourist,California,2022-11-11,2022-12-09,7,15.0
+1134,UK,Student,,2022-08-07,2022-10-10,-4,
+1135,India,Work,Hyderabad,2022-11-28,2022-12-15,102,4.0
+1136,Germany,Student,,wrong_date,2022-12-02,10,9.0
+1137,,Tourist,Toronto,2022-12-09,2023-02-16,115,19.0
+1138,India,Work,New Delhi,2022-02-13,2022-05-14,116,7.0
+1139,,Tourist,,2022-07-17,2022-08-10,20,
+1140,India,Tourist,California,2022-04-05,2022-04-13,0,19.0
+1141,Australia,Tourist,Hyderabad,2022-05-12,2022-09-01,90,14.0
+1142,UK,Tourist,Sydney,2022-04-15,2022-06-25,93,1.0
+1143,Canada,Tourist,Sydney,2022-03-16,2022-04-04,86,
+1144,Australia,Student,Sydney,2022-03-15,2022-07-02,96,
+1145,USA,Work,London,2022-01-06,2022-04-16,44,
+1146,Germany,Tourist,Hyderabad,2022-12-18,2023-03-04,81,8.0
+1147,USA,Tourist,Toronto,2022-03-18,2022-04-03,115,20.0
+1148,,Work,New Delhi,2022-01-10,2022-04-16,87,
+1149,Australia,Tourist,New Delhi,2022-11-06,2022-11-24,111,
+1150,Germany,Work,Hyderabad,2022-03-08,2022-05-20,52,
+1151,,Student,Toronto,2022-10-22,2023-01-08,-5,
+1152,Canada,Work,London,2022-06-13,2022-08-31,62,
+1153,Australia,Work,California,2022-07-16,2022-08-25,83,
+1154,Germany,Work,,2022-12-24,2023-02-28,10,
+1155,France,Work,London,2022-05-09,2022-08-05,43,17.0
+1156,Australia,Work,Hyderabad,2022-11-28,2022-12-08,108,22.0
+1157,Australia,Tourist,Sydney,2022-03-11,2022-05-25,20,17.0
+1158,Germany,Tourist,Hyderabad,2022-07-29,2022-08-12,17,4.0
+1159,Australia,Student,Sydney,2022-10-04,2022-10-08,0,0.0
+1160,Australia,Work,London,2022-08-29,2022-10-21,50,21.0
+1161,Canada,Student,,2022-08-22,2022-11-02,90,19.0
+1162,Canada,Work,Toronto,2022-08-25,2022-12-18,-6,9.0
+1163,France,Work,Toronto,2022-10-07,2022-10-16,3,
+1164,USA,Student,California,2022-09-02,2022-11-13,39,14.0
+1165,Australia,Work,Sydney,2022-12-06,2023-01-08,33,25.0
+1166,Australia,Student,California,2022-09-05,2022-09-28,10,
+1167,France,Work,Hyderabad,2022-11-05,2022-12-09,40,
+1168,Canada,Tourist,Toronto,2022-11-11,2023-01-20,23,
+1169,USA,Tourist,,2022-10-28,2022-11-11,73,
+1170,USA,Tourist,London,wrong_date,2022-09-22,100,5.0
+1171,Australia,Work,New Delhi,2022-06-17,2022-08-27,115,11.0
+1172,France,Tourist,Toronto,2022-10-26,2022-12-01,36,19.0
+1173,India,Tourist,Toronto,2022-06-11,2022-07-05,-2,21.0
+1174,Germany,Tourist,Sydney,2022-02-20,2022-06-09,86,19.0
+1175,USA,Student,Sydney,2023-01-01,2023-02-19,82,
+1176,France,Tourist,New Delhi,2022-12-31,2023-03-07,37,
+1177,Canada,Student,Toronto,wrong_date,2022-07-15,1,
+1178,India,Student,Hyderabad,2022-09-13,2022-11-15,-4,
+1179,UK,Student,,2022-12-12,2023-02-06,112,
+1180,UK,Work,Hyderabad,2022-03-03,2022-03-05,49,
+1181,France,Work,Toronto,2022-07-04,2022-07-10,-10,
+1182,France,Work,Hyderabad,2022-12-14,2022-12-10,42,13.0
+1183,France,Work,,2022-04-28,2022-08-08,100,22.0
+1184,,Student,New Delhi,2022-05-11,2022-07-30,42,17.0
+1185,France,Work,,2022-10-16,2023-01-20,107,19.0
+1186,Germany,Student,Hyderabad,2022-12-13,2023-02-26,62,
+1187,Germany,Student,London,2022-08-30,2022-10-18,28,
+1188,Canada,Work,London,2022-06-02,2022-09-02,69,1.0
+1189,UK,Tourist,California,2022-05-22,2022-07-23,53,10.0
+1190,Germany,Tourist,,2022-07-30,2022-09-22,49,21.0
+1191,USA,Work,Toronto,2022-02-15,2022-05-10,41,
+1192,Australia,Student,New Delhi,2022-11-29,2022-12-07,40,5.0
+1193,India,Tourist,Hyderabad,2022-08-27,2022-09-06,44,
+1194,Canada,Tourist,,2022-03-21,2022-06-26,67,16.0
+1195,USA,Tourist,Sydney,2022-04-09,2022-07-09,114,21.0
+1196,Canada,Student,New Delhi,2022-12-20,2023-02-22,9,
+1197,India,Student,California,2022-04-12,2022-08-04,111,
+1198,Canada,Student,Hyderabad,2022-01-10,2022-03-23,28,
+1199,France,Tourist,Toronto,2022-08-02,2022-08-21,15,6.0
+1200,Germany,Tourist,Toronto,2022-10-10,2022-11-07,24,20.0
+1201,France,Tourist,New Delhi,2022-11-30,,115,10.0
+1202,France,Student,Toronto,2022-08-16,2022-11-09,97,
+1203,India,Work,New Delhi,2022-09-25,2023-01-20,76,0.0
+1204,UK,Student,,2022-06-21,2022-08-30,45,
+1205,Canada,Student,California,2022-05-04,2022-08-06,94,1.0
+1206,Canada,Student,London,2022-01-25,2022-05-15,-9,
+1207,,Tourist,California,2022-03-12,2022-04-27,49,1.0
+1208,Australia,Work,London,2022-03-30,2022-04-07,111,25.0
+1209,France,Work,Sydney,2022-03-15,2022-06-18,4,11.0
+1210,,Tourist,,2022-02-01,2022-05-26,80,19.0
+1211,,Work,Toronto,2022-09-16,2022-09-25,64,15.0
+1212,France,Work,Sydney,2022-05-15,2022-05-19,102,
+1213,Canada,Work,Toronto,2022-09-24,2022-11-06,5,5.0
+1214,India,Student,Sydney,2022-04-07,2022-05-09,38,
+1215,France,Tourist,London,2022-10-01,2023-01-22,84,8.0
+1216,Australia,Student,California,2022-04-18,,108,
+1217,Australia,Tourist,California,2022-01-23,2022-05-05,9,
+1218,France,Student,California,2022-02-10,2022-04-03,16,
+1219,Australia,Tourist,Toronto,2022-02-01,2022-03-01,89,17.0
+1220,,Work,New Delhi,2022-02-16,2022-05-30,45,6.0
+1221,India,Student,Toronto,2022-10-18,2022-11-28,102,12.0
+1222,France,Student,New Delhi,2022-01-18,2022-02-20,105,
+1223,USA,Tourist,Toronto,2022-10-19,2023-01-18,91,
+1224,Canada,Tourist,California,2022-09-18,2022-11-17,29,8.0
+1225,,Work,Hyderabad,2022-12-18,2023-03-30,113,20.0
+1226,Canada,Tourist,New Delhi,2022-03-23,2022-06-28,23,17.0
+1227,USA,Student,Hyderabad,2022-12-26,2023-03-02,48,
+1228,India,Tourist,Toronto,2022-07-02,2022-09-11,105,
+1229,India,Work,California,2022-04-27,2022-07-20,95,
+1230,France,Work,Sydney,2022-12-25,2023-03-15,47,
+1231,UK,Work,London,2022-01-16,2022-04-05,-6,5.0
+1232,UK,Tourist,California,2022-06-01,2022-08-06,99,23.0
+1233,Germany,Tourist,Sydney,2022-07-24,2022-11-01,50,
+1234,Germany,Tourist,London,2022-06-04,2022-09-11,40,5.0
+1235,USA,Tourist,Hyderabad,2022-01-23,2022-02-07,76,
+1236,USA,Tourist,Sydney,2022-10-16,2022-11-09,23,17.0
+1237,,Work,California,2022-07-27,2022-11-02,28,
+1238,UK,Student,Hyderabad,2022-01-18,2022-03-30,6,3.0
+1239,,Tourist,New Delhi,2022-12-03,2023-01-04,112,
+1240,Canada,Student,Toronto,2022-11-23,2023-01-15,9,3.0
+1241,Germany,Tourist,,2022-08-04,2022-09-07,94,
+1242,USA,Student,,2022-09-11,2022-11-11,40,20.0
+1243,India,Student,Hyderabad,wrong_date,2022-05-23,108,
+1244,Australia,Student,,2022-03-15,2022-06-20,52,
+1245,Canada,Tourist,California,2022-10-26,2022-12-25,117,
+1246,,Student,California,2022-03-21,2022-03-24,42,
+1247,USA,Work,London,2022-10-01,2022-09-30,103,0.0
+1248,Australia,Student,New Delhi,2022-12-31,2023-02-01,49,
+1249,India,Work,New Delhi,2022-11-11,2022-12-17,14,
+1250,India,Student,California,2022-09-05,2022-10-05,49,19.0
+1251,UK,Student,New Delhi,2022-03-14,2022-04-19,37,
+1252,India,Tourist,California,2022-04-18,2022-05-09,47,
+1253,India,Student,Hyderabad,2022-09-30,2022-12-06,38,
+1254,France,Tourist,California,2022-09-25,2022-10-08,111,4.0
+1255,USA,Student,,2022-02-01,2022-03-23,21,6.0
+1256,India,Student,New Delhi,2022-03-08,2022-06-13,42,14.0
+1257,France,Student,California,2022-11-18,2023-01-07,5,0.0
+1258,Canada,Student,Toronto,2022-05-11,2022-08-05,20,
+1259,Germany,Student,California,2022-09-02,2022-11-06,24,
+1260,Germany,Work,Sydney,2022-02-08,2022-04-08,4,7.0
+1261,UK,Student,New Delhi,2022-12-31,2023-01-06,44,7.0
+1262,,Work,London,2022-07-05,2022-09-30,63,10.0
+1263,USA,Tourist,London,2022-10-18,2022-12-24,25,19.0
+1264,Canada,Tourist,Sydney,2022-11-27,2023-02-01,42,
+1265,USA,Student,London,2022-11-09,2022-11-23,103,
+1266,Australia,Student,London,2022-04-21,2022-08-13,107,
+1267,Canada,Student,London,2022-08-14,2022-09-15,108,13.0
+1268,France,Work,London,2022-04-01,2022-06-04,55,2.0
+1269,UK,Tourist,Hyderabad,2022-02-04,2022-04-12,63,2.0
+1270,India,Tourist,,2022-05-09,2022-05-27,53,2.0
+1271,India,Student,California,2022-10-08,2023-01-14,107,
+1272,USA,Work,Sydney,2022-05-29,2022-06-01,2,
+1273,Germany,Tourist,California,2022-11-28,2023-02-27,46,
+1274,,Work,Hyderabad,2022-02-19,2022-04-11,18,
+1275,France,Work,Sydney,2022-08-10,2022-10-05,93,6.0
+1276,India,Student,New Delhi,2022-12-26,2023-03-22,48,
+1277,,Tourist,New Delhi,2022-03-16,2022-07-06,44,
+1278,Canada,Student,London,2022-06-20,2022-09-20,10,
+1279,USA,Student,Sydney,2022-09-28,2022-10-12,44,15.0
+1280,,Student,London,2022-03-20,2022-04-22,91,17.0
+1281,USA,Student,Sydney,2022-12-09,2023-01-18,66,
+1282,Germany,Tourist,,2022-05-16,,96,11.0
+1283,Germany,Work,Sydney,2022-05-20,2022-06-06,73,
+1284,France,Student,New Delhi,wrong_date,2022-10-04,83,3.0
+1285,UK,Tourist,California,2022-12-15,2023-03-26,-10,
+1286,Canada,Work,Toronto,2022-09-08,2022-09-13,36,22.0
+1287,UK,Student,California,2022-07-11,2022-10-07,104,24.0
+1288,Germany,Tourist,California,2022-05-24,2022-05-22,55,17.0
+1289,India,Student,Toronto,2022-01-22,2022-04-11,95,2.0
+1290,Canada,Work,London,2022-04-30,2022-07-04,82,15.0
+1291,Germany,Student,London,2022-08-13,2022-11-20,8,
+1292,Germany,Work,Toronto,2022-09-12,2022-12-03,28,
+1293,UK,Work,,2022-12-15,2023-01-06,105,
+1294,UK,Work,Toronto,2022-12-13,2023-01-27,75,
+1295,UK,Tourist,California,2022-12-06,2023-03-28,11,8.0
+1296,USA,Work,Hyderabad,2022-06-03,2022-07-14,-5,
+1297,USA,Tourist,New Delhi,2022-11-08,2022-11-18,95,24.0
+1298,India,Tourist,Sydney,2022-02-03,2022-05-05,116,5.0
+1299,,Work,California,2022-12-06,2022-12-17,96,
+1300,UK,Tourist,Toronto,2022-10-19,2022-11-14,62,4.0
+1301,Australia,Tourist,Hyderabad,2022-11-18,2023-03-04,73,
+1302,France,Work,,2022-08-29,2022-12-17,66,
+1303,Germany,Work,California,2022-09-29,2022-12-23,78,5.0
+1304,USA,Student,Toronto,2022-10-10,2022-12-17,72,18.0
+1305,UK,Student,Hyderabad,2022-08-06,2022-09-13,32,
+1306,Germany,Work,Toronto,2022-01-31,2022-04-01,17,10.0
+1307,Australia,Tourist,Toronto,2022-05-18,2022-06-19,68,
+1308,,Work,,2022-07-15,2022-08-16,19,
+1309,UK,Work,,2022-02-03,2022-05-29,32,
+1310,,Tourist,Hyderabad,2022-02-28,2022-06-17,4,
+1311,Canada,Student,Toronto,2022-10-16,2022-10-30,110,20.0
+1312,,Work,Sydney,2022-04-18,2022-08-14,66,18.0
+1313,Australia,Tourist,Sydney,2022-09-30,2022-12-14,4,7.0
+1314,Canada,Tourist,Sydney,2022-02-09,2022-03-02,98,
+1315,India,Student,Toronto,2022-05-14,2022-09-03,94,10.0
+1316,,Work,New Delhi,2022-07-10,2022-08-21,58,
+1317,Australia,Work,New Delhi,2022-01-14,2022-01-19,30,
+1318,Canada,Student,,2022-11-05,2023-02-26,67,22.0
+1319,UK,Student,Hyderabad,2022-10-10,2022-12-20,106,
+1320,France,Work,Hyderabad,2022-10-31,2023-01-05,29,10.0
+1321,UK,Tourist,California,2022-05-21,2022-07-31,112,
+1322,France,Student,Sydney,2022-06-08,2022-09-06,65,9.0
+1323,Germany,Student,New Delhi,2022-04-04,2022-04-29,50,
+1324,USA,Student,Toronto,2022-03-18,2022-06-20,40,22.0
+1325,UK,Work,Toronto,2022-04-09,2022-06-06,-9,24.0
+1326,France,Student,Toronto,2022-07-01,2022-07-19,75,
+1327,,Student,New Delhi,2022-05-04,2022-08-04,92,1.0
+1328,,Work,Toronto,2022-02-18,2022-02-23,87,
+1329,France,Work,London,2022-12-02,2023-02-16,33,13.0
+1330,Germany,Student,Sydney,2022-02-25,2022-04-15,90,9.0
+1331,Australia,Tourist,New Delhi,2022-10-28,2023-01-07,43,
+1332,Germany,Student,Hyderabad,2022-12-03,2023-01-08,17,5.0
+1333,Canada,Work,California,wrong_date,2023-01-16,43,20.0
+1334,,Student,New Delhi,2022-11-27,2023-03-03,37,
+1335,Germany,Student,Sydney,2022-09-19,2022-10-03,53,
+1336,Canada,Tourist,California,2022-09-03,2022-09-19,51,
+1337,Australia,Student,Hyderabad,2022-06-11,2022-09-01,37,14.0
+1338,France,Student,Toronto,2022-09-16,2022-10-07,-5,21.0
+1339,Canada,Work,Toronto,2022-08-13,2022-09-14,50,2.0
+1340,Germany,Tourist,Toronto,2022-05-06,2022-07-08,14,7.0
+1341,Canada,Tourist,New Delhi,2022-01-12,2022-02-24,40,19.0
+1342,India,Student,New Delhi,2022-04-09,2022-06-01,71,7.0
+1343,USA,Student,California,2022-03-01,2022-06-21,-1,
+1344,Germany,Work,,2022-09-06,2022-11-19,103,3.0
+1345,France,Student,,2022-04-01,2022-05-07,5,2.0
+1346,UK,Tourist,New Delhi,2022-10-22,2022-10-21,77,
+1347,USA,Tourist,,2022-07-31,2022-07-27,85,15.0
+1348,,Work,California,2022-09-18,2022-10-28,67,
+1349,Canada,Student,Hyderabad,2022-05-29,2022-08-28,12,
+1350,France,Tourist,Toronto,2022-07-28,2022-10-13,82,15.0
+1351,,Work,New Delhi,2022-12-06,2023-01-03,41,
+1352,India,Student,Toronto,2022-01-04,2022-01-18,22,23.0
+1353,Canada,Work,London,2022-01-09,2022-04-26,35,
+1354,USA,Tourist,New Delhi,2022-04-13,2022-05-11,118,20.0
+1355,Germany,Work,California,2022-03-29,2022-04-23,94,19.0
+1356,UK,Work,London,2022-11-23,2022-12-30,89,
+1357,,Work,California,2022-01-28,2022-05-10,105,
+1358,UK,Student,Hyderabad,2022-11-04,2023-02-26,108,
+1359,USA,Student,New Delhi,2022-06-01,2022-07-15,94,5.0
+1360,Australia,Work,,2022-02-03,2022-04-18,96,22.0
+1361,India,Work,London,2022-04-18,2022-05-08,27,
+1362,UK,Work,California,2022-05-09,2022-07-16,85,
+1363,UK,Tourist,Toronto,2022-11-07,2022-12-29,36,
+1364,,Student,Sydney,wrong_date,2022-08-13,95,
+1365,Australia,Tourist,,2022-02-15,2022-04-15,107,
+1366,UK,Student,New Delhi,2022-01-13,2022-04-22,72,23.0
+1367,France,Student,London,2022-02-03,2022-02-28,29,
+1368,,Student,California,2022-12-06,2022-12-18,77,12.0
+1369,,Tourist,California,2022-05-09,2022-08-23,82,
+1370,USA,Tourist,London,2022-02-01,2022-05-15,115,
+1371,France,Student,Hyderabad,2022-05-21,2022-08-10,7,25.0
+1372,France,Student,Hyderabad,2022-12-22,2023-01-11,68,8.0
+1373,,Tourist,,2022-01-04,2022-02-09,9,
+1374,USA,Work,New Delhi,2022-02-02,2022-05-11,77,
+1375,UK,Student,New Delhi,2022-03-29,2022-06-30,77,
+1376,USA,Student,New Delhi,2022-09-24,2022-10-18,85,
+1377,Australia,Student,Sydney,2022-12-22,2023-02-02,57,7.0
+1378,France,Tourist,Hyderabad,2022-05-22,2022-08-04,79,21.0
+1379,India,Student,Toronto,2022-10-27,2022-12-20,48,
+1380,,Tourist,California,2022-09-14,2022-12-17,56,1.0
+1381,USA,Student,,2022-02-14,2022-03-26,36,21.0
+1382,France,Student,London,2022-09-24,2023-01-06,34,15.0
+1383,Australia,Student,California,2022-05-22,2022-08-07,40,
+1384,Germany,Tourist,Toronto,2022-05-24,2022-05-26,85,
+1385,Germany,Work,,2022-01-26,2022-03-12,74,21.0
+1386,India,Tourist,London,2022-05-22,2022-06-24,70,21.0
+1387,Canada,Work,Toronto,2022-03-30,2022-03-27,59,9.0
+1388,Germany,Tourist,,2022-12-21,2023-01-05,43,14.0
+1389,India,Student,London,2022-02-04,2022-01-30,55,
+1390,Australia,Work,New Delhi,2022-11-29,2023-03-05,66,20.0
+1391,France,Student,Hyderabad,2022-10-19,2022-12-18,103,
+1392,,Student,California,2022-12-10,2023-01-31,61,1.0
+1393,Australia,Tourist,Toronto,2022-11-03,2023-02-19,30,4.0
+1394,,Tourist,New Delhi,2022-11-01,2022-12-03,82,8.0
+1395,India,Work,Sydney,2022-05-17,2022-07-30,108,8.0
+1396,Germany,Tourist,London,2022-10-01,2023-01-23,71,
+1397,USA,Work,New Delhi,2022-08-15,2022-11-25,87,
+1398,Canada,Work,California,2022-04-14,2022-07-11,78,
+1399,UK,Tourist,New Delhi,2022-04-05,2022-04-01,6,
+1400,USA,Student,Toronto,2022-12-07,2022-12-03,89,16.0
+1401,Canada,Student,London,2022-03-08,2022-03-31,-7,10.0
+1402,France,Student,Hyderabad,2022-10-17,2023-02-01,108,
+1403,France,Student,California,2022-12-24,2023-03-11,1,22.0
+1404,USA,Work,,2022-08-18,2022-11-13,29,0.0
+1405,UK,Tourist,Toronto,2022-11-05,2022-11-05,27,11.0
+1406,Canada,Work,California,2022-03-08,2022-05-19,112,11.0
+1407,Australia,Work,California,2022-03-23,2022-03-23,35,
+1408,France,Student,Toronto,2022-04-19,2022-08-05,18,
+1409,Canada,Student,California,2022-03-20,2022-03-30,109,
+1410,India,Tourist,Hyderabad,2022-03-22,2022-04-25,113,20.0
+1411,,Work,Hyderabad,2022-10-17,2023-01-26,1,12.0
+1412,France,Student,Sydney,2022-12-29,2023-03-23,36,
+1413,Germany,Student,California,2022-07-27,2022-09-04,75,17.0
+1414,India,Tourist,Toronto,2022-12-30,2023-01-08,20,17.0
+1415,Germany,Work,New Delhi,2022-10-15,2022-10-31,108,
+1416,Australia,Work,New Delhi,2022-07-24,2022-10-20,119,15.0
+1417,Germany,Tourist,,2022-06-16,2022-10-05,18,
+1418,India,Work,Toronto,2022-01-12,2022-01-07,35,
+1419,,Work,California,2022-04-12,2022-07-03,102,
+1420,France,Student,Toronto,2022-06-29,2022-07-01,114,7.0
+1421,UK,Student,London,2022-12-09,2023-03-17,-1,
+1422,,Work,Hyderabad,2022-10-13,2022-10-20,66,
+1423,Germany,Work,California,2022-07-12,2022-10-19,7,
+1424,Australia,Tourist,Hyderabad,2022-10-16,2023-01-29,28,
+1425,UK,Tourist,Sydney,2022-07-07,2022-07-07,49,
+1426,Germany,Work,New Delhi,2022-10-17,2023-02-14,63,
+1427,Australia,Student,London,2022-05-09,2022-06-07,2,10.0
+1428,Australia,Student,London,2022-10-22,2022-11-04,77,
+1429,France,Student,Hyderabad,2022-07-18,2022-09-23,115,23.0
+1430,UK,Tourist,Toronto,2022-06-30,2022-07-01,110,14.0
+1431,UK,Work,Hyderabad,2022-12-17,2023-01-23,60,17.0
+1432,Canada,Tourist,New Delhi,2022-06-05,2022-07-27,25,11.0
+1433,USA,Tourist,London,2022-03-16,2022-05-08,19,3.0
+1434,France,Tourist,Hyderabad,2022-09-21,2022-09-25,58,0.0
+1435,USA,Work,Toronto,2022-05-23,2022-07-28,38,
+1436,UK,Student,New Delhi,2022-11-04,2022-12-05,72,
+1437,India,Tourist,,2022-11-17,2023-03-10,82,17.0
+1438,Germany,Tourist,Toronto,2022-07-14,2022-07-26,104,0.0
+1439,India,Work,Toronto,2022-09-13,2022-09-29,60,
+1440,UK,Student,,2022-04-14,2022-08-11,-1,
+1441,India,Tourist,Sydney,2022-12-05,2023-01-09,113,
+1442,France,Work,London,2022-01-01,2022-02-23,67,19.0
+1443,India,Student,Toronto,2022-09-07,2022-11-17,25,17.0
+1444,UK,Work,Hyderabad,2022-03-22,2022-07-14,35,8.0
+1445,,Work,,2022-05-12,2022-08-04,51,
+1446,UK,Tourist,London,2022-05-19,2022-08-12,116,21.0
+1447,Germany,Work,California,2022-04-06,2022-07-06,58,
+1448,Australia,Tourist,Sydney,2022-09-01,2022-11-15,74,
+1449,Germany,Work,New Delhi,2022-06-22,2022-09-06,69,
+1450,UK,Student,New Delhi,2022-06-01,2022-07-13,71,
+1451,Germany,Work,New Delhi,2022-06-08,2022-07-14,85,
+1452,,Work,Hyderabad,2022-04-16,2022-05-11,102,
+1453,Canada,Tourist,Toronto,2022-01-20,2022-03-19,54,
+1454,Germany,Tourist,California,2022-09-16,2022-11-11,21,18.0
+1455,Canada,Tourist,,2022-05-28,2022-09-11,-4,
+1456,UK,Work,,2022-07-22,2022-10-09,-5,2.0
+1457,India,Work,,2022-04-11,2022-05-28,29,18.0
+1458,India,Work,Toronto,2022-05-04,2022-07-21,98,4.0
+1459,India,Work,New Delhi,2022-05-13,2022-06-03,61,3.0
+1460,India,Student,,2022-10-27,2023-01-12,112,20.0
+1461,Canada,Work,New Delhi,2022-07-14,2022-09-09,119,
+1462,Canada,Work,London,2022-11-15,2022-11-13,16,
+1463,France,Work,California,2022-01-17,,26,3.0
+1464,Australia,Student,New Delhi,2022-06-15,2022-07-05,116,
+1465,India,Work,Hyderabad,2022-11-20,2023-03-09,54,
+1466,,Tourist,New Delhi,2022-08-03,2022-09-16,110,5.0
+1467,Canada,Student,,2022-10-25,2023-01-01,19,15.0
+1468,India,Tourist,London,2022-08-18,,20,
+1469,Australia,Tourist,Toronto,2022-02-05,2022-03-31,24,
+1470,Canada,Student,,2022-09-03,,47,
+1471,India,Work,,2022-08-28,2022-11-25,0,
+1472,Germany,Student,Toronto,2022-10-11,2022-12-02,82,
+1473,Canada,Tourist,Toronto,2022-12-21,2023-04-08,52,
+1474,Canada,Work,London,2022-10-31,2022-11-22,83,6.0
+1475,Canada,Student,New Delhi,2022-09-18,2022-09-29,47,
+1476,Germany,Work,Hyderabad,2022-02-19,2022-03-18,-8,
+1477,,Student,Toronto,2022-07-20,2022-10-01,118,25.0
+1478,UK,Tourist,New Delhi,2022-03-06,2022-05-01,1,2.0
+1479,USA,Work,Hyderabad,2022-11-13,2022-12-30,-7,9.0
+1480,UK,Tourist,California,2022-11-09,2023-03-04,118,0.0
+1481,UK,Work,Hyderabad,2022-03-07,2022-06-04,73,23.0
+1482,France,Tourist,Sydney,2022-04-01,2022-07-07,90,
+1483,India,Tourist,Sydney,2022-07-30,2022-09-15,79,
+1484,Canada,Work,London,2022-02-20,2022-04-02,103,10.0
+1485,India,Work,London,2022-02-07,2022-04-15,39,0.0
+1486,France,Student,New Delhi,2022-11-28,2023-03-12,98,
+1487,India,Work,,2022-09-07,2022-12-11,62,6.0
+1488,,Work,California,2022-06-13,2022-07-29,112,
+1489,Australia,Student,Sydney,2022-11-15,2022-12-26,-7,20.0
+1490,,Student,Hyderabad,2022-09-24,2022-11-08,76,
+1491,Australia,Student,Hyderabad,2022-03-02,2022-03-15,33,5.0
+1492,UK,Tourist,Toronto,2022-01-14,2022-05-14,118,18.0
+1493,France,Student,California,2022-01-16,2022-01-19,100,21.0
+1494,USA,Work,Hyderabad,2022-03-09,2022-04-18,49,18.0
+1495,,Work,Toronto,2022-10-13,2022-12-13,81,
+1496,,Student,,2022-06-07,2022-09-23,69,
+1497,Canada,Tourist,Hyderabad,2022-02-04,2022-04-03,75,
+1498,Germany,Tourist,Sydney,2022-10-12,2023-01-10,92,21.0
+1499,Australia,Student,California,2022-08-05,2022-12-02,39,21.0
+1500,,Work,Hyderabad,2022-03-03,2022-04-30,96,
