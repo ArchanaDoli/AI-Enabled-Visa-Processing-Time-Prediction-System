@@ -3,7 +3,7 @@
 
 ### 📌 Overview
 Milestone 1 focuses on collecting and preprocessing historical visa application data to prepare it for analysis and predictive modeling. The objective of this stage is to clean raw data, handle inconsistencies, and create a meaningful target variable for predicting visa processing time.
-
+Data structure is inspired from publicly available immigration datasets
 ---
 
 ### 📊 Dataset Features
@@ -67,3 +67,4 @@ The dataset contains the following attributes:
 ### 👩‍💻 Author
 Archana Doli  
 AI & Data Science Enthusiast
+
