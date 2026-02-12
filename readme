@@ -1,0 +1,69 @@
+# Milestone 1 – Data Collection & Preprocessing  
+## AI-Enabled Visa Processing Time Prediction System
+
+### 📌 Overview
+Milestone 1 focuses on collecting and preprocessing historical visa application data to prepare it for analysis and predictive modeling. The objective of this stage is to clean raw data, handle inconsistencies, and create a meaningful target variable for predicting visa processing time.
+
+---
+
+### 📊 Dataset Features
+The dataset contains the following attributes:
+
+- Application_ID  
+- Applicant_Country  
+- Visa_Type  
+- Processing_Office  
+- Application_Date  
+- Decision_Date  
+- Applicant_Age  
+- Experience_Years  
+
+---
+
+### 🛠 Preprocessing Steps Performed
+
+1. **Handling Missing Values**
+   - Filled missing categorical values with `"Unknown"`
+   - Replaced missing numerical values using median imputation
+   - Removed records with missing critical date fields
+
+2. **Date Conversion & Validation**
+   - Converted `Application_Date` and `Decision_Date` into datetime format
+   - Removed invalid or improperly formatted dates
+
+3. **Data Cleaning**
+   - Eliminated unrealistic age values (≤ 0 or ≥ 100)
+   - Removed negative processing time values
+
+4. **Target Variable Creation**
+   - Created a new feature:
+     
+     `Processing_Time_Days = Decision_Date - Application_Date`
+
+   - This variable will be used for regression modeling in later stages.
+
+5. **Feature Encoding**
+   - Applied One-Hot Encoding to categorical variables
+   - Prepared dataset for machine learning models
+
+---
+
+### 🎯 Milestone 1 Outcome
+- Raw visa application data successfully cleaned and validated  
+- Target variable (`Processing_Time_Days`) generated  
+- Dataset structured and ready for Exploratory Data Analysis (Module 2)  
+- Preprocessing pipeline prepared for future predictive modeling  
+
+---
+
+### 🛠 Technologies Used
+- Python  
+- Pandas  
+- NumPy  
+- Jupyter Notebook  
+
+---
+
+### 👩‍💻 Author
+Archana Doli  
+AI & Data Science Enthusiast
