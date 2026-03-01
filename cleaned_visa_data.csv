@@ -1,0 +1,33 @@
+Applicant_Country,Visa_Type,Processing_Office,Application_Date,Decision_Date,Applicant_Age,Experience_Years,Processing_Time_Days
+USA,Work,London,2022-03-19,2022-06-26,62,22.0,99
+Germany,Work,Hyderabad,2022-09-03,2022-09-26,60,24.0,23
+USA,Tourist,London,2022-03-25,2022-06-30,63,4.0,97
+Canada,Tourist,Toronto,2022-12-21,2022-12-26,37,12.0,5
+India,Tourist,New Delhi,2022-04-07,2022-06-12,26,13.0,66
+Australia,Tourist,California,2022-09-06,2022-10-01,25,12.0,25
+UK,Tourist,New Delhi,2022-11-20,2022-12-19,56,19.0,29
+Canada,Tourist,Toronto,2022-03-14,2022-06-08,44,17.0,86
+USA,Work,Hyderabad,2022-02-24,2022-03-17,29,3.0,21
+Germany,Work,Hyderabad,2022-11-11,2023-03-05,29,12.0,114
+UK,Work,Hyderabad,2022-05-04,2022-07-29,36,12.0,86
+Canada,Work,New Delhi,2022-12-24,2023-04-09,65,12.0,106
+Australia,Work,California,2022-12-11,2023-02-22,47,22.0,73
+USA,Tourist,London,2022-01-11,2022-02-20,34,12.0,40
+France,Student,Hyderabad,2022-06-29,2022-09-13,63,12.0,76
+Canada,Work,California,2022-08-23,2022-11-26,75,12.0,95
+Canada,Work,Sydney,2022-04-13,2022-08-07,38,7.0,116
+France,Tourist,California,2022-02-08,2022-06-04,50,25.0,116
+Canada,Work,London,2022-08-11,2022-10-27,65,12.0,77
+UK,Work,Toronto,2022-05-24,2022-09-05,18,4.0,104
+France,Tourist,Sydney,2022-04-02,2022-04-21,20,18.0,19
+Australia,Tourist,Hyderabad,2022-12-08,2022-12-09,74,12.0,1
+Australia,Tourist,Sydney,2022-05-09,2022-06-30,54,12.0,52
+Canada,Tourist,California,2022-07-01,2022-07-31,20,12.0,30
+USA,Work,New Delhi,2022-07-24,2022-08-24,58,12.0,31
+Canada,Student,New Delhi,2022-06-01,2022-07-07,64,12.0,36
+India,Tourist,Toronto,2022-12-19,2023-03-12,74,21.0,83
+Canada,Work,California,2022-08-08,2022-11-30,42,12.0,114
+France,Work,Sydney,2022-07-09,2022-07-13,28,12.0,4
+India,Student,Toronto,2022-10-08,2022-11-20,48,4.0,43
+Australia,Student,London,2022-09-19,2022-12-26,55,5.0,98
+USA,Work,London,2022-01-06,2022-04-16,44,12.0,100
