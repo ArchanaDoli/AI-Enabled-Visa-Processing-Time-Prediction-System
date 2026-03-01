@@ -64,7 +64,63 @@ The dataset contains the following attributes:
 
 ---
 
-### 👩‍💻 Author
-Archana Doli  
-AI & Data Science Enthusiast
+Milestone 2 – Exploratory Data Analysis (EDA)
+📌 Overview
+
+Milestone 2 focuses on performing Exploratory Data Analysis (EDA) to identify patterns, trends, and relationships within the cleaned visa dataset. The objective is to understand factors influencing visa processing time and generate insights for feature importance before model building.
+
+📊 Analysis Performed
+
+1️⃣ Processing Time Distribution
+Visualized overall distribution using histogram and boxplot
+Identified spread, skewness, and outliers in processing time
+
+2️⃣ Processing Time Across Visa Types
+Compared average and median processing time by visa category
+Identified variation between Work, Tourist, and Student visas
+
+3️⃣ Regional Analysis (Applicant Country)
+Analyzed processing time differences across applicant countries
+Examined regional variations and trends
+
+4️⃣ Workload at Processing Offices
+Evaluated number of applications handled per processing office
+Compared average processing time across offices
+Assessed possible impact of workload on delays
+
+5️⃣ Seasonal Trend Analysis
+Extracted Application_Month from application dates
+Identified monthly trends in processing time
+Categorized applications into Peak and Off-Peak seasons
+
+6️⃣ Feature Relationship Analysis
+Scatterplots for:
+Applicant Age vs Processing Time
+Experience Years vs Processing Time
+Generated correlation heatmap to assess linear relationships
+
+🔎 Key Insights
+Processing time varies moderately across visa types
+Certain processing offices handle higher workloads
+Seasonal variations show slight fluctuation in processing duration
+Experience years show mild correlation with processing time
+Age demonstrates minimal influence
+
+🎯 Milestone 2 Outcome
+Clear understanding of visa processing time distribution
+Identification of workload and seasonal patterns
+Feature importance insights generated
+Dataset prepared for predictive modeling (Milestone 3)
+
+🛠 Technologies Used
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Jupyter Notebook
+
+👩‍💻 Author
+Archana Doli
+AI Enthusiast
 
