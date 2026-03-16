@@ -120,6 +120,66 @@ Matplotlib
 Seaborn
 Jupyter Notebook
 
+Milestone 3 – Predictive Modeling
+📌 Overview
+Milestone 3 focuses on building machine learning models to predict visa processing time based on historical visa application data. After completing data preprocessing and exploratory data analysis in the previous milestones, this stage applies regression algorithms to estimate the number of days required to process a visa application.
+The target variable used for prediction is:
+Processing_Time_Days
+which represents the number of days between the application submission date and the final decision date.
+
+🎯 Objectives
+The main objectives of this milestone are:
+* Train multiple regression models for predicting visa processing time
+* Compare model performance using evaluation metrics
+* Identify the best-performing model
+* Apply hyperparameter tuning to improve model performance
+
+🧠 Machine Learning Models Used
+
+Three regression algorithms were implemented and evaluated:
+1️⃣ Linear Regression
+A basic statistical model used to establish a linear relationship between input features and the target variable.
+2️⃣ Random Forest Regressor
+An ensemble learning method that builds multiple decision trees and combines their predictions to improve accuracy and reduce overfitting.
+3️⃣ Gradient Boosting Regressor
+A boosting algorithm that builds models sequentially, where each new model corrects the errors of the previous one.
+
+📊 Model Evaluation Metrics
+The models were evaluated using the following metrics:
+
+* Mean Absolute Error (MAE)
+Measures the average absolute difference between predicted and actual values.
+
+*Root Mean Squared Error (RMSE)
+Measures the square root of the average squared differences between predicted and actual values.
+
+*R² Score (Coefficient of Determination)
+Indicates how well the model explains the variance in the target variable.
+
+🔎 Observations
+* Random Forest achieved the lowest MAE and RMSE values, indicating better prediction accuracy compared to the other models.
+* Linear Regression performed poorly due to the inability to capture complex relationships in the dataset.
+* Gradient Boosting showed moderate performance but did not outperform Random Forest.
+* The negative R² values indicate that the dataset may not contain strong predictive relationships for visa processing time. However, among the tested models, Random Forest performed relatively better.
+
+⚙ Hyperparameter Tuning
+Hyperparameter tuning was performed using GridSearchCV to optimize model parameters and improve performance.
+Example parameters tuned for Random Forest include:
+Number of trees (n_estimators)
+Maximum tree depth (max_depth)
+This step helps identify the best configuration for the model.
+
+📊 Feature Importance Analysis
+Feature importance was analyzed using the Random Forest model to understand which factors contribute most to visa processing time prediction. This helps identify the most influential variables in the dataset.
+
+🎯 Milestone 3 Outcome
+*Successfully trained multiple regression models
+*Compared models using MAE, RMSE, and R² score
+*Identified Random Forest as the best-performing model
+*Applied hyperparameter tuning for model optimization
+*Generated feature importance insights
+*The trained model will be used in the next milestone to build a Visa Processing Time Estimator Engine.
+
 👩‍💻 Author
 Archana Doli
 AI Enthusiast
