@@ -180,7 +180,96 @@ Feature importance was analyzed using the Random Forest model to understand whic
 *Generated feature importance insights
 *The trained model will be used in the next milestone to build a Visa Processing Time Estimator Engine.
 
+🚀 Milestone 4 – Model Deployment
+AI-Enabled Visa Processing Time Prediction System
+
+📌 Overview
+Milestone 4 focuses on deploying the trained machine learning model as a web application so that users can interact with the system and get visa processing time predictions in real time. The deployment is implemented using Streamlit, which provides a simple interface for user input and displays predicted results.
+This milestone converts the machine learning model into a real-world usable application.
+
+🎯 Objectives
+The main objectives of Milestone 4 are:
+*Load the trained machine learning model
+*Accept user input through a web interface
+*Preprocess input data in the same format as training data
+*Predict visa processing time using the trained model
+*Display prediction results to the user
+*Test the system with multiple test cases
+
+🛠 System Architecture
+The deployment system consists of two main components:
+
+1. Backend – Prediction Engine (predict.py)
+Responsible for:
+*Loading the trained Random Forest model
+*Loading feature column structure
+*Converting user input into model format (One-Hot Encoding format)
+*Returning predicted processing time
+
+2. Frontend – Web Application (app.py)
+
+Built using Streamlit:
+*User selects country, visa type, processing office, and application month
+*Input data is sent to prediction function
+*Predicted processing time is displayed
+
+📊 Input Features Used for Prediction
+The model uses the following features:
+
+Applicant Country
+Visa Type
+Processing Office
+Application Month
+Applicant Age
+Experience Years
+
+These features were created and processed in Milestone 1 and Milestone 2.
+
+📁 Project Structure
+Visa_Project/
+│
+├── cleaned_visa_data.csv
+├── rf_model.pkl
+├── model_columns.pkl
+├── predict.py
+├── app.py
+└── README.md
+
+▶️ Running the Application
+To run the Streamlit web application:
+
+Step 1 – Install Dependencies
+pip install -r requirements.txt
+Step 2 – Run Streamlit App
+streamlit run app.py
+Step 3 – Open Browser
+http://localhost:8501
+
+The web application will open and users can enter visa details to get predictions.
+
+🧪 Testing the Model
+The system was tested using multiple test cases in test_cases.py to ensure the model predictions are working correctly for different inputs.
+
+🎯 Milestone 4 Outcome
+
+*Machine learning model successfully deployed as a web application
+*User interface created using Streamlit
+*Model integrated with frontend for real-time predictions
+*System tested with multiple input scenarios
+*End-to-end AI prediction system completed
+
+🧠 Final Project Milestones Summary
+Milestone	Description
+Milestone 1	Data Collection & Preprocessing
+Milestone 2	Exploratory Data Analysis & Feature Engineering
+Milestone 3	Model Training & Evaluation
+Milestone 4	Model Deployment (Streamlit Web App)
+
 👩‍💻 Author
 Archana Doli
 AI Enthusiast
+
+Project Title:
+AI-Enabled Visa Processing Time Prediction System
+
 
